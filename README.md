@@ -159,6 +159,14 @@ $('#my_form').on('blur','input,select,textarea',function() {
 });
 ```
 
+Validate the form and return is valid.
+
+```javascript
+
+validator.isValid()
+
+```
+
 It is also common to remove an error as soon as a field gains focus again.
 
 ```javascript
@@ -176,6 +184,7 @@ validator.clearErrors();
 //clear selected errors
 validator.clearErrors(['name','home_phone']);
 ```
+
 
 Setting Default Configuration Options
 ===================================
